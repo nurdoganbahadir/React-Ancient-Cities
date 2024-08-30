@@ -6,7 +6,7 @@ import navbarImage from "../assets/image.png";
 
 function MyNavbar({ onSearch }) {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className="navbar-container">
       <Container fluid>
         <img src={navbarImage} alt="image" width={100} />
         <Navbar.Toggle aria-controls="navbarScroll" />

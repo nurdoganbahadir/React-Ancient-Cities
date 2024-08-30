@@ -4,8 +4,11 @@
   padding: 0;
 
   box-sizing: border-box;
-  font-family: "Indie Flower", sans-serif;
+  font-family: "SUSE", sans-serif;
   background-color: rgb(208, 238, 73);
+}
+.navbar-container{
+  background-color: yellow !important;
 }
 
 .App {
@@ -19,12 +22,13 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 8rem;
+  gap: 4rem;
 }
 .cards {
   width: 500px;
   height: 400px;
   cursor: pointer;
+  margin-top: 3rem;
 }
 .container-card {
   position: relative;
@@ -64,14 +68,13 @@
   object-fit: cover;
 }
 .arka p {
-  font-weight: 600;
-  background-color: rgb(196, 241, 72);
-  padding: 1rem;
+  font-weight: 550;
+  background-color: yellow;
+  padding: 0.5rem;
 }
 .arka {
   transform: rotateY(180deg);
   align-items: start;
   display: flex;
   flex-direction: column;
-  overflow:scroll;
 }
