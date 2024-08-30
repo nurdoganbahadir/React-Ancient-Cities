@@ -44,4 +44,9 @@ h3 {
 .on img {
   border-radius: 10px;
   box-shadow: 3px 5px 5px 5px black;
+  object-fit: cover;
+}
+.arka p{
+  font-weight: bolder;
+  font-size: 1.2rem;
 }
