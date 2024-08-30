@@ -5,10 +5,15 @@ const AncientCard = ({ img, name, history }) => {
     <>
       <div className="cards">
         <div className="on">
-          <img src={img} alt="image" />
+          <img src={img} alt="image" className="cards-img"/>
           <h3>{name}</h3>
         </div>
-        <div className="arka"></div>
+        <div className="arka">
+          <p>🏛️{history[0]}</p>
+          <p>🏛️{history[1]}</p>
+          <p>🏛️{history[2]}</p>
+          <p>🏛️{history[3]}</p>
+        </div>
       </div>
     </>
   );
