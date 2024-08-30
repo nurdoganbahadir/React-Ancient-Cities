@@ -5,7 +5,7 @@
 
   box-sizing: border-box;
   font-family: "Indie Flower", sans-serif;
-  background-color: rgb(143, 141, 141);
+  background-color: rgb(208, 238, 73);
 }
 
 .App {
@@ -65,12 +65,13 @@
 }
 .arka p {
   font-weight: 600;
-  font-size: 1.2rem;
+  background-color: rgb(196, 241, 72);
+  padding: 1rem;
 }
 .arka {
   transform: rotateY(180deg);
   align-items: start;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  overflow:scroll;
 }
