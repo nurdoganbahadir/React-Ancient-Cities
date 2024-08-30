@@ -5,7 +5,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import navbarImage from "../assets/image.png";
 
-function MyNavbar() {
+function MyNavbar({onSearch}) {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid>
@@ -25,6 +25,7 @@ function MyNavbar() {
               placeholder="Search"
               className="me-2"
               aria-label="Search"
+              onChange={(e) => onSearch(e.target.value)}
             />
             <Button variant="outline-success">Search</Button>
           </Form>

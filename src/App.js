@@ -5,11 +5,17 @@ import MyNavbar from "./components/MyNavbar";
 import { data } from "./helpers/data";
 
 function App() {
-  const [city, setCity] = useState("")
+  const [search, setSearch] = useState("");
+  const filteredData = () => {
+    data.filter((city) =>
+      city.name.toLowerCase().includes(search.toLowerCase())
+    );
+  };
+
   return (
     <div className="App">
-      <MyNavbar />
-      <CardContainer data={data}/>
+      <MyNavbar onSearch={setSearch} />
+      <CardContainer search={search} />
       <MyFooter />
     </div>
   );
