@@ -1,10 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-    
-    box-sizing: border-box;
-    font-family: 'Indie Flower', sans-serif;
-    background-color: rgb(85, 82, 82);
-    
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+  font-family: "Indie Flower", sans-serif;
+  background-color: rgb(85, 82, 82);
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
 }
